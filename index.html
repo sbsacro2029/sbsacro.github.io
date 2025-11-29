@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Rizal Park Home Page</title>
+    <style>
+        body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Rizal_Monument_%28Manila%2C_2024%29.jpg/1200px-Rizal_Monument_%28Manila%2C_2024%29.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navigation {
+  padding: 10px;
+  margin: 5px;
+}
+
+.photogallery {
+  background-image: url(https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwdIy_r9tTOZVRl_6N40qmE2S864FoiEsn0E8iFznMIP_ieN1y-NCXm3X5NHESV5TmaXMig7iIxXvKEDlEUTL4GiIJsZBFm3Uh3bLpfwrRhybA6-PdXcCAwUGuqMnpQ9Uwb05TSLw=w270-h312-n-k-no);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10%;
+  margin-left: -20px;
+}
+
+.restaurant {
+  background-image: url(https://lh3.googleusercontent.com/p/AF1QipMC68cVydqMkgznU4sehr2cuYxfjKAGDM1qYAZ5=w289-h312-n-k-no);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10%;
+}
+
+.fun-facts{
+  background-image: url(https://gttp.images.tshiftcdn.com/198642/x/0/san-agustin-church-in-intramuros-manila.jpg?crop=1.91%3A1&fit=crop&width=1200);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10%;
+}
+
+.references {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/35/Rizal_Monument_and_the_Philippine_National_Flag.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10%;
+  margin-right: -20px;
+}
+
+.top-header{
+  background-color: #5E5EE2;
+}
+
+.footer{
+  background-color: #5E5EE2;
+}
+
+.navbar {
+ background-color: rgba(148,184,205,0.8);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.hover {
+  color: blue;
+}
+
+.maindiv {
+  margin: 0 auto;
+}
+
+.navigation {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.navigation:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+.introduction {
+    font-size: 32pt;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+  .maindiv {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media(max-width: 430px){
+  .maindiv {
+    padding: 0;
+  }
+}
+    </style>
+</head>
+<body>
+
+    <header class="top-header text-white p-2">
+  <div class="container py-3 d-flex justify-content-between">
+    <h1><b>Rizal Park</b></h1>
+    <img src="https://i.pinimg.com/originals/41/98/61/4198618fb118556034c81a804e20f03b.png" alt="PH flag" style="width:100px;">
+  </div>
+</header>
+<header class="navbar">
+  <div class="container d-flex justify-content-between py-3">
+    <h6><a href="index.html">Home</a></h6>
+    <h6><a href="photogallery.html">Photo Gallery</a></h6>
+    <h6><a href="restaurant.html">Restaurant</a></h6>
+    <h6><a href="funfacts.html">Fun Facts</a></h6>
+    <h6><a href="references.html">References</a></h6>
+  </div>
+</header>
+  <br><br>
+<div class="introduction">
+    <h1><b>Welcome to the Rizal Park Tourism Website!</b></h1>
+    <p style="font-size: 24pt;">The Rizal Park, aka the Luneta Park, is an urban park in Ermita, Manila. The site is incredibly huge, as it covers
+        an area of 58 hectares. Originally called Bagumbayan, the location was notorious for the public executions of Filipinos who opposed Spanish rule.
+        Notable Filipinos are our national hero, Jose Rizal, hence the namesake of the place and GOMBURZA.
+    </p>
+</div>
+
+<br><br>
+<div class="container">
+<div class="row maindiv">
+  <div class="col-6 col-md-3 navigation photogallery">
+    <a href="photogallery.html"><h4 style="color:white;">Photo Gallery</h4></a>
+  </div>
+  <div class="col-6 col-md-3 navigation restaurant">
+    <a href="restaurant.html"><h4 style="color:white;">Restaurant</h4></a>
+  </div>
+  <div class="col-6 col-md-3 navigation fun-facts">
+    <a href="funfacts.html"><h4 style="color:white;">Fun Facts</h4></a>
+  </div>
+  <div class="col-6 col-md-3 navigation references">
+    <a href="references.html"><h4 style="color:white;">References</h4></a>
+  </div>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br>
+
+<footer class="footer text-white mt-5 p-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h5>CS3 SA</h5>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <ul class="list-inline">
+          <li class="list-inline-item">Alzarooni</li>
+          <li class="list-inline-item">Carlos</li>
+          <li class="list-inline-item">Sacro</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
